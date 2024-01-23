@@ -1,0 +1,23 @@
+:root{
+  --black-tile:#000;
+  --white-tile:#fff;
+  --tile-size:100px;
+  --bg-color:#0000FF;
+  --clicked-color:#ADD8E6;
+}
+
+html,body {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.App {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  background: var(--bg-color);
+  font-family: 'Sofia Sans', sans-serif;
+  grid-template-columns: auto 220px;
+
+}

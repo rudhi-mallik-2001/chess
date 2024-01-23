@@ -1,0 +1,30 @@
+.board {
+    display: grid;
+    position: relative;
+    grid-template-columns: calc(.25*var(--tile-size)) calc(8*var(--tile-size));
+}
+
+.tiles {
+    display: grid;
+    grid-template-columns: repeat(8,var(--tile-size));
+    grid-template-rows: repeat(8,var(--tile-size));
+    width: calc(8*var(--tile-size));
+}
+.tile{
+    position: relative;
+}
+.--black-tile{
+    background-color: var(--black-tile);
+}
+.--white-tile{
+    background-color: var(--white-tile);
+}
+.--path-color{
+    background-color: blue;
+}
+.--clicked-color{
+    background-color: var(--clicked-color);
+}
+.cursor-pointer{
+    cursor: pointer;
+}
