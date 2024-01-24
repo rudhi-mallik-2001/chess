@@ -5,7 +5,17 @@
   --bg-color:#0000FF;
   --clicked-color:#ADD8E6;
 }
+@media all and (max-width: 450px) {
+  :root {
+    --tile-size: 50px;
+  }
+}
 
+@media all and (max-width: 376px) {
+  :root {
+    --tile-size: 35px;
+  }
+}
 html,body {
   margin: 0;
   padding: 0;
